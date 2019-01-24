@@ -1,7 +1,7 @@
-pkg install figlet
+pkg install figlet -y
 
-pkg install toilet
-pkg install nodejs-current
+pkg install toilet -y
+
 pkg install ruby
 
 gem install lolcat
