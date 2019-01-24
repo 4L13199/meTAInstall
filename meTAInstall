@@ -11,7 +11,7 @@ toilet -f smslant -F gay 'meTAInstall'
 sleep 1
 echo "\033[33;1m Metasploit Installer" "\033[37;1m From" "\033[36;1mIndonesia Security Lite"
 sleep 1
-echo "\ 033 [31; 1m Subkreb YouTube" "\ 033 [36; 1m HeXerz"
+echo "\033[31;1m Subkreb YouTube" "\033[36;1mHeXerz"
 
 echo " "
 echo "____________________________________________________________"|lolcat
