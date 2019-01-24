@@ -1,8 +1,13 @@
 pkg install figlet -y
 
 pkg install toilet -y
-
+pkg install python -y
+pkg install python2 -y
+pkg install curl
+pkg install perl
+pip2 install --upgrade pip
 pkg install ruby
+
 
 gem install lolcat
 
@@ -62,7 +67,10 @@ rm $HOME/metasploit-framework-4.16.16.tar.gz
 cd $HOME/metasploit-framework
 sed '/rbnacl/d' -i Gemfile.lock
 sed '/rbnacl/d' -i metasploit-framework.gemspec
+gem install bundle
 gem install bundler
+pip2 install bundler
+gem install bundler -v 1.16.2
 sed 's|nokogiri (1.*)|nokogiri (1.8.0)|g' -i Gemfile.lock
 # Many phones are claiming libxml2 not found error
 ln -sf $PREFIX/include/libxml2/libxml $PREFIX/include/
