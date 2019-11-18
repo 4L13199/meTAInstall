@@ -75,5 +75,6 @@ fi
 if [ $MrIM81 = T ] || [ $MrIM81 = t ]
 then
 echo "Mungkin Lain Kali"
+echo "Ingat Selalu Dunia Ini Sementara"
 exit
 fi
